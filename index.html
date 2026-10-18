@@ -3,40 +3,73 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hermes - Personal Automation Tool</title>
-<style>
- body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:760px;
-      margin:0 auto;padding:48px 20px;line-height:1.65;color:#1b1f24;background:#fff}
- h1{font-size:1.9rem;margin-bottom:.2em} h2{font-size:1.2rem;margin-top:1.8em}
- a{color:#0a66c2} footer{margin-top:3em;padding-top:1.2em;border-top:1px solid #e3e6ea;
-      font-size:.9rem;color:#57606a}
-</style>
+<meta name="description" content="Hermes is a private, single-user personal automation tool operated by Ken Wong. It is not offered to the public.">
+<meta name="theme-color" content="#1e4a42">
+<title>Hermes — Personal Automation Tool</title>
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
-<h1>Hermes</h1>
-<p><strong>Personal automation tool &mdash; private, single-user.</strong></p>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="wordmark" href="index.html">Hermes</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <article class="shell sheet">
+    <p class="eyebrow">Personal automation</p>
+    <h1>Hermes</h1>
+    <p class="lede">Personal automation tool — private, single-user.</p>
+    <p class="intro">Hermes is operated by, and solely for, one individual: Ken Wong (<a href="mailto:wildwong@gmail.com">wildwong@gmail.com</a>). It is not offered to the public and has no other users.</p>
 
-<p>Hermes is a private automation assistant operated by, and solely for, one individual:
-Ken Wong (<a href="mailto:wildwong@gmail.com">wildwong@gmail.com</a>). It is not offered to
-the public and has no other users.</p>
+    <dl class="facts">
+      <div>
+        <dt>Operator</dt>
+        <dd>Ken Wong</dd>
+      </div>
+      <div>
+        <dt>Contact</dt>
+        <dd><a href="mailto:wildwong@gmail.com">wildwong@gmail.com</a></dd>
+      </div>
+      <div>
+        <dt>Users</dt>
+        <dd>The operator only</dd>
+      </div>
+    </dl>
 
-<h2>What it does</h2>
-<p>Hermes connects to the operator's own Google Account &mdash; Gmail, Google Calendar,
-Google Drive, Google Docs, Google Sheets and Google Contacts &mdash; in order to carry out
-tasks that the operator explicitly requests. Typical tasks include searching mail,
-summarising threads, drafting replies, and organising documents.</p>
+    <section aria-labelledby="what">
+      <h2 id="what">What it does</h2>
+      <p>Hermes connects to the operator’s own Google Account — Gmail, Google Calendar, Google Drive, Google Docs, Google Sheets and Google Contacts — in order to carry out tasks that the operator explicitly requests.</p>
+      <p>Typical tasks include:</p>
+      <ul>
+        <li>Searching mail</li>
+        <li>Summarising threads</li>
+        <li>Drafting replies</li>
+        <li>Organising documents</li>
+      </ul>
+    </section>
 
-<h2>Scope of access</h2>
-<p>Access is limited strictly to the operator's own account and to the actions the operator
-asks for. No data belonging to any other person is accessed, collected or stored.</p>
+    <section aria-labelledby="scope">
+      <h2 id="scope">Scope of access</h2>
+      <p>Access is limited strictly to the operator’s own account and to the actions the operator asks for. No data belonging to any other person is accessed, collected or stored.</p>
+    </section>
 
-<h2>Privacy</h2>
-<p>See the <a href="privacy.html">Privacy Policy</a> for full details on what is accessed,
-how it is stored, and how access can be revoked.</p>
-
-<footer>
-Contact: <a href="mailto:wildwong@gmail.com">wildwong@gmail.com</a><br>
-Last updated: 14 September 2026
+    <section aria-labelledby="privacy">
+      <h2 id="privacy">Privacy</h2>
+      <p>The <a href="privacy.html">privacy policy</a> describes what is accessed, how it is stored, and how access can be revoked.</p>
+    </section>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="shell footer-inner">
+    <p>Hermes — private automation tool</p>
+    <p>Contact: <a href="mailto:wildwong@gmail.com">wildwong@gmail.com</a></p>
+    <p>Last updated: 14 September 2026</p>
+  </div>
 </footer>
 </body>
 </html>
